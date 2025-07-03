@@ -17,11 +17,11 @@ This analysis answers three practical business questions:
 
 ### 📊 Dashboard Overview
 
-The Tableau dashboard includes:
-- A spam rate gauge and spam vs. ham breakdown
-- Message length distribution histograms by label
-- Word cloud or keyword rankings from spam messages (NLP)
-- Structural comparisons (character and word count)
+- The Tableau dashboard includes:
+  - A spam rate gauge and spam vs. ham breakdown
+  - Message length distribution histograms by label
+  - Word cloud or keyword rankings from spam messages (NLP)
+  - Structural comparisons (character and word count)
 
 > 🔗 [View the live dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 
@@ -31,15 +31,14 @@ The Tableau dashboard includes:
 
 ### ✅ Actionable Recommendations
 
-- **Flag common spam trigger phrases such as “win”, “free”, “cash”, and “urgent”.**  
-  - *🧠 NLP Insight:* These appear disproportionately in spam and can be used in spam filters or fraud detection logic.
+- **🧠 NLP Insight: These appear disproportionately in spam and can be used in spam filters or fraud detection logic.**  
+  - Flag common spam trigger phrases such as “win”, “free”, “cash”, and “urgent”.
 
-- **Use message structure features (length, word count) in spam classification models.**  
-  - *📊 Analyst Insight:* Spam tends to be longer and more keyword-dense than ham messages.
+- **📊 Analyst Insight: Spam tends to be longer and more keyword-dense than ham messages.**  
+  - Use message structure features (length, word count) in spam classification models.
 
-- **Monitor and adapt to spam trends over time.**  
-  - *📈 Strategy Insight:* Periodic updates to keyword models may improve filtering effectiveness and reduce false positives.
-
+- **📈 Strategy Insight: Periodic updates to keyword models may improve filtering effectiveness and reduce false positives.**  
+  - Monitor and adapt to spam trends over time. 
 ---
 
 ## 🔍 Deep Dive: Analytical Approach
@@ -111,4 +110,4 @@ sms-spam-nlp-analysis/
 
 **Jeremy Gutierrez**  
 SQL-first Data Analyst focused on real-world messaging behavior, campaign optimization, and effective dashboard storytelling.  
-[Connect on LinkedIn](https://www.linkedin.com/in/your-profile) • [View GitHub Portfolio](https://github.com/JZambrana1612)
+[Connect on LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) • [View GitHub Portfolio](https://github.com/JZambrana1612)
