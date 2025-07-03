@@ -23,7 +23,7 @@ This analysis answers three practical business questions:
   - Word cloud or keyword rankings from spam messages (NLP)
   - Structural comparisons (character and word count)
 
-> 🔗 [View the live dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+> 🔗 [View the live dashboard on Tableau Public](https://public.tableau.com/views/SMSSpamBehaviorDashboard/SMSSpamDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ![Dashboard Preview](images/dashboard_preview.png)
 
@@ -89,7 +89,9 @@ This dataset is publicly available on Kaggle:
 sms-spam-nlp-analysis/
 │
 ├── data/
-│   └── sms_spam_enriched.csv
+│   ├── sms_spam_cleaned.csv          # Cleaned dataset with label + message
+│   ├── sms_spam_enriched.csv         # Enriched with message_length, word_count, etc.
+│   └── top_spam_keywords.csv         # NLP output used for keyword visualizations
 │
 ├── sql/
 │   ├── create_table.sql
@@ -98,10 +100,10 @@ sms-spam-nlp-analysis/
 │   └── q3_keywords_placeholder.sql
 │
 ├── images/
-│   └── dashboard_preview.png
+│   └── dashboard_preview.png         
 │
-├── LICENSE
 ├── README.md
+├── LICENSE
 ```
 
 ---
